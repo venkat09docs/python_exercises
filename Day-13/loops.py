@@ -39,3 +39,4 @@ threshold = 80
 for temp in temperature_readings:
     if temp > threshold:
         print(f'Warning: Temperature exceeded safe limit at {temp}°F')
+

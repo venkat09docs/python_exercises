@@ -1,7 +1,7 @@
 # LIST COMPREHENSIONS
 
 # Doubling values using a traditional for loop
-clicks = [10, 5, 15, 20]
+clicks = [10, 5, 15, 20, 5]
 double_clicks = []
 
 for item in clicks:
@@ -28,8 +28,5 @@ data_team = ['Alice', 'David', 'Charlie']
 shared_skills = [team_member for team_member in ai_team if team_member in data_team]
 print(shared_skills)
 
-# Integers
-# Strings - indexed (Ordered) and immutable - '' or ""
-# List - indexed (Ordered) and mutable - []
-# Tuple - indexed (Ordered) and immutable - ()
+
 

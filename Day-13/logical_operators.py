@@ -21,7 +21,7 @@
 # !False = True
 
 # -----------------------------
-# 2. Using 'and' Operator
+# 1. Using 'and' Operator
 # -----------------------------
 
 age = 1

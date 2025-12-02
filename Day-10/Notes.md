@@ -4,4 +4,9 @@
 ### Tuple - indexed (Ordered) and immutable - ()
 ### Sets - Unordered, unique and mutable
 ### FrozenSet - Unordered, unique and immutable
-### Dictionary -
+### Dictionary - Key and Value, mutable
+
+- Basics
+- Methods and Operations
+- Comprehensions
+- 
