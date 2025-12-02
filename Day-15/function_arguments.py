@@ -1,6 +1,6 @@
 # FUNCTION ARGUMENTS
 
-# TYPES OF FUNCTION ARGUMENTS:
+# 5 TYPES OF FUNCTION ARGUMENTS:
 
 # 1. **Positional Arguments** - Arguments that must be passed in the correct order.
 
