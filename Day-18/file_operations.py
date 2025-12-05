@@ -70,4 +70,41 @@ with open('./config/configuration.txt') as f:
 print(f.closed)
 # f.read()
 
+print('#' * 100)
 
+# READING FILES INTO A LIST
+
+with open('./config/configuration.txt') as f:
+    content = f.read().splitlines()
+    print(content)
+    print(type(content))
+
+    # for line in content:
+    #     print(line)
+
+print('#' * 100)
+
+with open('./config/configuration.txt') as f:
+    content = f.readlines()
+    print(content)
+
+print('#' * 100)
+
+with open('./config/configuration.txt', 'rt') as f:
+    content = f.readline()
+    content1 = f.readline()
+    print(content,end='')
+    print(content1,end='')
+
+# WRITING TO TEXT FILES
+
+with open('myfile.txt', 'w') as f:
+    f.write('Just a 1st line.\n')
+    f.write('Just a 2nd line.\n')
+    f.write('Just a 3rd line.\n')
+
+with open('myfile.txt', 'a') as f:
+    f.write('Just a 4th line.\n')
+    f.write('Just a 5th line.\n')
+
+# --------------------------------------------------------
