@@ -12,3 +12,5 @@ Clone the Repo
 
 - Staging then committing and then push to the remote repo
 - This is hotfix from Day-23
+- This change is related to Feature/Day-25 Change
+- This Second change is related to Feature/Day-25 Change
