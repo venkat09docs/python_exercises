@@ -16,7 +16,7 @@ print(formatted_names)
 
 hyperparams = {'layers': 3, 'units': 256, 'dropout': 0.2}
 
-# Create a new dictionary where all values are doubled
+# Create a new dictionary where all values are doubled -
 new_hyperparams = { key: value * 2 for key, value in hyperparams.items() }
 print(new_hyperparams)
 

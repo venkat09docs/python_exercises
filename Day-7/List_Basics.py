@@ -3,7 +3,7 @@
 # Creating a list with different data types
 sample_list = [42, 3.14, 'GPT-4', True]
 
-# Another list with mixed data types
+# Another list with mixed data types my data
 my_data = [1, 0.5, 'tokenizer', False]
 
 # Creating empty lists
